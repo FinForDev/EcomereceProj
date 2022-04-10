@@ -49,7 +49,7 @@ const Navbar = ({ click }) => {
       <div className="hamburger__menu" onClick={click}>
         <div></div>
         <div></div>
-        <div>gitpushtest</div>
+        <div>gitpushasdfasdftest</div>
       </div>
     </nav>
   );
