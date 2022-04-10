@@ -9,10 +9,10 @@ const Navbar = ({ click }) => {
   const getCartCount = () => {
     return cartItems.reduce((qty, item) => Number(item.qty) + qty, 0);
   };
-  const getPriceCount = () =>{
-      return cartItems
-          .reduce((price, item) => price + item.price * item.qty, 0)
-          .toFixed(2);
+  const getPriceCount = () => {
+    return cartItems
+      .reduce((price, item) => price + item.price * item.qty, 0)
+      .toFixed(2);
   }
 
 
@@ -38,7 +38,7 @@ const Navbar = ({ click }) => {
             <span>
               Cart <span className="cartlogo__badge">{getCartCount()} </span>
             </span>
-            <p className="cartlogo__price">{getPriceCount ()}</p>
+            <p className="cartlogo__price">{getPriceCount()}</p>
           </Link>
         </li>
         <li>
