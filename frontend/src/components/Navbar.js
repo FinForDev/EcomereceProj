@@ -48,8 +48,8 @@ const Navbar = ({ click }) => {
 
       <div className="hamburger__menu" onClick={click}>
         <div></div>
-        <div>sdfsadf</div>
-        <div>bbbb</div>
+        <div></div>
+        <div>gitpushtest</div>
       </div>
     </nav>
   );
