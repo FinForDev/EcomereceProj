@@ -14,7 +14,11 @@ import CartScreen from "./screens/CartScreen";
 
 function App() {
   const [sideToggle, setSideToggle] = useState(false);
-console.log(sideToggle)
+  console.log(sideToggle)
+
+  const add = () => {
+    console.log("Sadf")
+  }
   return (
     <Router>
       <Navbar click={() => setSideToggle(true)} />
@@ -23,9 +27,9 @@ console.log(sideToggle)
 
       <main className="app">
         <Routes>
-          <Route path="/" element={<HomeScreen />}/>
-          <Route path="/product/:id" element={<ProductScreen />}/>
-          <Route path="/cart" element={<CartScreen />}/>
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="/product/:id" element={<ProductScreen />} />
+          <Route path="/cart" element={<CartScreen />} />
         </Routes>
       </main>
     </Router>
