@@ -17,7 +17,7 @@ function App() {
   console.log(sideToggle)
 
   const add = () => {
-    console.log("Sadf")
+    console.log("Sadffff")
   }
   return (
     <Router>
