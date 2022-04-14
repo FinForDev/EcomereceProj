@@ -15,7 +15,7 @@ import CartScreen from "./screens/CartScreen";
 function App() {
   const [sideToggle, setSideToggle] = useState(false);
   console.log(sideToggle)
-
+  console.log("masterBranch")
 
   const test1Feature = () => {
 
