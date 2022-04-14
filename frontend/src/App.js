@@ -15,8 +15,11 @@ import CartScreen from "./screens/CartScreen";
 function App() {
   const [sideToggle, setSideToggle] = useState(false);
   console.log(sideToggle)
-  console.log("test1branchh")
 
+
+  const test1Feature =()=>{
+    
+  }
   return (
     <Router>
       <Navbar click={() => setSideToggle(true)} />
