@@ -16,7 +16,7 @@ function App() {
   const [sideToggle, setSideToggle] = useState(false);
 
   console.log(sideToggle)
-  console.log("masterBranch")
+  console.log("masterBranchh")
 
   const test1Feature = () => {
     console.log("test1")
