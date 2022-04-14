@@ -17,11 +17,7 @@ function App() {
   console.log(sideToggle)
   console.log("masterBranchh")
   const test1Feature = () => {
-<<<<<<< HEAD
-    console.log("test1s01")
-=======
     console.log("test1s0123213")
->>>>>>> e2a32308d19742929f0fa4e2cf0a5f547356d151
   }
   
   return (
