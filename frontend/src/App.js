@@ -16,11 +16,9 @@ function App() {
   const [sideToggle, setSideToggle] = useState(false);
  
   console.log(sideToggle)
-  console.log("masterBranchTest33")
+  console.log("masterBranchTest55")
 
-  const test1Feature = () => {
 
-  }
   return (
     <Router>
       <Navbar click={() => setSideToggle(true)} />
