@@ -14,6 +14,7 @@ import CartScreen from "./screens/CartScreen";
 
 function App() {
   const [sideToggle, setSideToggle] = useState(false);
+  const [sideToggle, setSideToggle] = useState(false);
   console.log(sideToggle)
   console.log("test1branchh")
 
