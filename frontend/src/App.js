@@ -17,9 +17,9 @@ function App() {
   console.log(sideToggle)
   console.log("masterBranchh")
   const test1Feature = () => {
-    console.log("test1s0123213")
+    console.log("test10ssss")
   }
-  
+
   return (
     <Router>
       <Navbar click={() => setSideToggle(true)} />
